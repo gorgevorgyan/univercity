@@ -38,7 +38,7 @@
 					<div class="cirlce-block__wrap">
 						<span class="circle-block__value">1 302</span>
 						<svg class="circle-block__icon" width="0.781vw" height="0.781vw">
-							<use href="../assets/img/sprite.svg#icon1"></use>
+							<use href="/img/sprite.d34130e0.svg#icon2"></use>
 						</svg>
 					</div>
 					<p class="circle-block__text">Преподавателей</p>
@@ -616,17 +616,10 @@ svg {
 	}
 
 	span:first-of-type {
-		position: absolute;
-		width: 49px;
-		height: 20px;
-		left: 780px;
-		top: 523px;
-
-		font-family: Montserrat;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 22px;
-		line-height: 20px;
+		font-size: 1.146vw;
+        line-height: 1.042vw;
+        font-weight: 700;
+        margin-bottom: 0.156vw;
 	}
 
 	span:last-of-type {
