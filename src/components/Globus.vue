@@ -137,6 +137,7 @@
         viewBox="0 0 100 12"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        class="progress__icon"
       >
         <path d="M95.5 0H99.5L88.5 12H84.5L95.5 0Z" fill="#F79A2D" />
         <path d="M59.5 0H63.5L52.5 12H48.5L59.5 0Z" fill="#F79A2D" />

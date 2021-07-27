@@ -55,24 +55,29 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar {
   width: 0px;
 }
-
-html,
-body {
-  height: 100%;
-  width: 100%;
+.progress__icon {
+  width: 80px!important;
+  height: 12px!important;
+  margin-right: 10px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: visible;
-}
+//html,
+//body {
+//  height: 100%;
+//  width: 100%;
+//}
 
-.header,
-.footer {
-  flex: 0 0 auto;
-}
+//.wrapper {
+//  display: flex;
+//  flex-direction: column;
+//  height: 100%;
+//  overflow: visible;
+//}
+//
+//.header,
+//.footer {
+//  flex: 0 0 auto;
+//}
 
 main {
   flex: 1 0 auto;
@@ -82,7 +87,7 @@ body {
   font-family: "Oswald", $bv-helvetica;
   font-size: 13px;
   font-weight: 400;
-  min-width: 1920px;
+  max-width: 1920px;
   margin: 0 auto;
   line-height: normal;
   color: #fff;
@@ -92,3 +97,39 @@ body {
   position: relative;
   overflow: hidden auto;
 }
+
+//@media screen and (max-width: 1680px){
+//  .cols {
+//    width:100%;
+//    max-width: 1680px;
+//  }
+//}
+//@media screen and (max-width: 1440px){
+//  .cols {
+//    width:100%;
+//    max-width:1440px;
+//  }
+//}
+//@media screen and (max-width: 1200px){
+//  .cols {
+//    display: flex;
+//    flex-wrap: wrap;
+//    padding-top: 9vw!important;
+//    padding-bottom: 13vw !important;
+//    width: 100%;
+//    max-width: 1024px;
+//    margin: 0 auto;
+//  }
+//  .col--right {
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-around;
+//  }
+//  .rating {
+//    margin-top: 0!important;
+//  }
+//  .finance-block__bg {
+//    width: 22.865vw ;
+//    height: 22.135vw ;
+//  }
+//}
